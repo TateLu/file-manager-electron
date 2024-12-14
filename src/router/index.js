@@ -13,7 +13,7 @@ import Logout from '../views/HomePage.vue'
 //     name: 'Home',
 //     component: Home
 //   },
-//   // 在这里添加更多路由...
+//   // 在这里添加更多路由...asdfasdsadfas
 // ]
 const routes = [
   { path: '/', component: Home },
