@@ -1,4 +1,4 @@
-import { createRouter, createWebHistory } from 'vue-router';
+import { createRouter, createWebHashHistory } from 'vue-router';
 import HomePage from '@/components/HomePage.vue';
 import DailyWork from '@/components/DailyWork.vue';
 import WarehouseManagement from '@/components/WarehouseManagement.vue';
@@ -16,7 +16,7 @@ const routes = [
 ];
 
 const router = createRouter({
-  history: createWebHistory(),
+  history: createWebHashHistory(), // 使用 hash 模式
   routes
 });
 
